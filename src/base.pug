@@ -1,0 +1,36 @@
+doctype html
+html
+	head
+		title SupesNet #{title}
+	block scripts
+		script(src='/js/app.js' defer)
+
+	body
+		include /includes/header.pug
+
+		block vars
+			- var currentUrl = '/'
+
+		if currentUrl === '/'
+			// include /includes/recents_slider.pug
+
+		div(class="global-container") 
+			div(class="inner-container")
+				main
+					block content
+						//section(class="movies movies-bg")
+						//	h4 Películas
+						//	include /includes/grid_of_movies.pug
+						//	div(class="see-more-movies")
+						//		a(href="/movies.pug" class="movies-link-colors") Ver más
+
+						section(class="series series-bg")
+							h4 Series
+							include /includes/grid_of_series.pug
+							div(class="see-more-series")
+								a(href="/series.pug" class="series-link-colors") Ver más
+
+				aside
+					include /includes/sidebar.pug
+		
+		include /includes/footer.pug

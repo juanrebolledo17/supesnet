@@ -1,0 +1,27 @@
+{
+  "name": "supesnet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "parcel src/base.pug --open",
+    "build-prod": "parcel build src/base.pug"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "parcel-bundler": "^1.12.3",
+    "pug": "^2.0.3",
+    "sass": "^1.20.1"
+  }
+}

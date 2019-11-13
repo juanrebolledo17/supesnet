@@ -1,0 +1,15 @@
+extends base
+
+append scripts 
+	link(href='/scss/main.scss' rel="stylesheet")
+
+block vars 
+	- var currentUrl = '/programs'
+
+block content
+	section(class="programs programs-bg")
+		h4 Programas
+		include includes/grid_of_programs.pug
+
+	// include includes/pagination.pug
+						

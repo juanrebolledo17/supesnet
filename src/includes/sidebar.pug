@@ -1,0 +1,108 @@
+div(class="sidebar")
+	div.search-zone
+		form(action="https://www.google.com/webhp?q=site:rpj17.gitlab.io/supesnet" method="get" class="search-form")
+			.form-group
+				input(type="text" placeholder="Buscar..." class="search-input" name="q" aria-label="Buscar en SupesNet")
+				button(type="submit") <i class="fas fa-search"></i>
+
+
+	div(class="social-zone")
+		h4 Síguenos
+		p Siguenos en redes sociales y mantente al atento de todas las novedades de <strong>SupesNet.</strong>
+		ul
+			li
+				a(href="#" class="fb") 
+					// i(class="fab fa-facebook-f fa-2x")
+					span.fa-stack.fa-2x
+						i.fas.fa-circle.fa-stack-2x
+						i.fab.fa-facebook-f.fa-stack-1x.fa-inverse
+			li
+				a(href="#" class="twitter") 
+					// i(class="fab fa-twitter fa-2x")
+					span.fa-stack.fa-2x
+						i.fas.fa-circle.fa-stack-2x
+						i.fab.fa-twitter.fa-stack-1x.fa-inverse
+
+	div(class="recent-series")
+		h4 Ultimas Series
+		div(class="grid-of-series")
+			a(href="/pages/series/titans_season_2.pug")
+				div(class="serie")
+					img(src="/img/series/titans-season-2.jpg")
+			a(href="/pages/series/watchmen_season_1.pug")
+				div(class="serie")
+					img(src="/img/series/watchmen-season-1.jpg")
+			a(href="/pages/series/black_lightning_season_3.pug")
+				div(class="serie")
+					img(src="/img/series/black-lightning-season-3.jpg")
+			a(href="/pages/series/batwoman_season_1.pug")
+				div(class="serie")
+					img(src="/img/series/batwoman-season-1.jpg")
+			a(href="/pages/series/arrow_season_8.pug")
+				div(class="serie")
+					img(src="/img/series/arrow-season-8.jpg")
+			a(href="/pages/series/the_flash_season_6.pug")
+				div(class="serie")
+					img(src="/img/series/the-flash-season-6.jpeg")
+		//	a(href="/pages/series/daredevil_season_3.pug")
+		//		div(class="serie")
+		//			img(src="/img/series/daredevil-season-3.jpg")
+		//	a(href="/pages/series/cloak_and_dagger_season_2.pug")
+		//		div(class="serie")
+		//			img(src="/img/series/cloak-and-dagger-season-2.jpg")
+		//	a(href="/pages/series/black_lightning_season_2.pug")
+		//		div(class="serie")
+		//			img(src="/img/series/black-lightning-season-2.jpg")
+		//	a(href="/pages/series/doom_patrol_season_1.pug")
+		//		div(class="serie")
+		//			img(src="/img/series/doom-patrol-season-1.jpg")
+		//	a(href="/pages/series/legion_season_3.pug")
+		//		div(class="serie")
+		//			img(src="/img/series/legion-season-3.jpg")
+
+	div(class="quote-of-the-day")
+		h4 Cita Superheroica
+		div
+			p(class="lead") <i class="fas fa-quote-left fa-2x fa-pull-left"></i> <span class="dynamic-hero-quote">Muchos leen la guerra y la paz y terminan pensando que era una simple aventura, otros leen los ingredientes de la goma de mascar y descubren los secretos del universo.</span>
+			hr
+			.quote-footer
+				cite.quote-author Lex Luthor
+		
+
+	//div(class="recent-movies")
+	//	h4 Ultimas Películas
+	//	div(class="grid-of-movies")
+	//		a(href="/pages/movies/logan.pug")
+	//			div(class="movie")
+	//				img(src="/img/movies/logan.jpg")
+	//		a(href="/pages/movies/civil_war.pug")
+	//			div(class="movie")
+	//				img(src="/img/movies/captain-america-civil-war.jpg")
+	//		a(href="/pages/movies/batman_v_superman.pug")
+	//			div(class="movie")
+	//				img(src="/img/movies/batmanvsuperman.jpg")
+	//		a(href="/pages/movies/jurassic_world.pug")
+	//			div(class="movie")
+	//				img(src="/img/movies/jurassic-world.jpg")
+	//		a(href="/pages/movies/the_incredibles_2.pug")
+	//			div(class="movie")
+	//				img(src="/img/movies/the-incredibles-2.jpg")
+	//		a(href="/pages/movies/deadpool_2.pug")
+	//			div(class="movie")
+	//				img(src="/img/movies/deadpool-2.jpg")
+
+	// div(class="suscription-zone")
+	//	h4 Suscripción
+	// 	div
+	//		p Suscríbete para recibir actualizaciones sobre nuevos aportes.
+	//			form(action="")
+	//				input(type="text" placeholder="Correo electrónico" class="email")
+
+	//unless currentUrl === '/tutorials'
+	//	div(class="tutorials-zone")
+	//		h4 Tutoriales
+	//		div
+	//			p ¿Quieres aprender a tener imagénes personalizadas en tus carpetas?, entonces dirígete a la sección de tutoriales.
+	//			a(href="/tutorials.pug") Tutoriales
+				
+	

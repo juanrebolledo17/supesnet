@@ -1,0 +1,41 @@
+extends /../layout.pug
+
+append scripts
+	link(href='/scss/main.scss' rel="stylesheet")
+
+block vars
+	- var currentUrl = '/page'
+	- var title = '| Arrow Temporada 8'
+
+block content
+	section.specific-page
+		div.image-container
+			img(src="/img/series/arrow-season-8.jpg" class="main-img")
+		div.info-container
+			div.information
+				p Octava y última temporada de la serie pionera del arrowverso, <strong>Arrow</strong>. Oliver Queen se ve forzado a abandonar a su familia para trabajar con el monitor en un intento por prevenir la crisis que se avecina, pero, ¿Serán estas las verdaderas intenciones del monitor o tendrá este una agenda oculta? 
+				h5 Información técnica
+				ul.technical-data
+					li Episodios: 04
+					li Calidad: 720p
+					li Audio: Inglés
+					li Subtitulos: Inglés / Español latino
+					li Formato: mkv
+				h5 Carpeta personalizada
+				div.folder-container
+					img(src="/img/folders/arrow-season-8-folder.jpg" class="folder")
+				h5 Enlaces de descarga
+				div.link-container
+					ul.download-links
+						li 
+							a(href="#" class="link") 01 - Starling City
+						li
+							a(href="#" class="link") 02 - Welcome to Hong Kong
+						li
+							a(href="#" class="link") 03 - Leap of faith 
+						li
+							a(href="#" class="link") 04 - Present tense 
+						li
+							a(href="#" class="link") Carpeta personalizada
+					// p Contraseña: supesnet
+

@@ -1,0 +1,37 @@
+extends base.pug
+
+append scripts 
+	link(href='/scss/main.scss' rel="stylesheet")
+
+block vars
+	- var currentUrl = '/tutorials'
+
+block content
+	section(class="tutorial")
+		h4 Tutorial Personalización de Carpetas
+		div(class="tutorial-info-container")
+			div(class="information")
+				p En este tutorial aprenderás como personalizar tus carpetas para que puedas tener carpetas como estas sin importar donde almácenes tus archivos, ya sea un pendrive, disco duro pórtatil, etc:
+				img(src="img/folders/iconos-personalizados.jpg")
+				h5 Instrucciones:
+				ul
+					li Paso 1:
+						p Descargar el siguiente programa: <a href="#" class="btn-download-folderico">Enlace</a>. <br> En el archivo zip, abra un archivo llamado <strong>Shedko Folderico 4.0 RC12</strong>.
+					li Paso 2:
+						p Una vez descargado e instalado el programa y teniendo la imagen de la carpeta en formato .ico descargada(Viene incluida en las descargas de las películas, series, comics, etc...), debes crear la carpeta.
+						img(src="img/folders/tutorial-captura-1.jpg")
+					li Paso 3:
+						p Con la carpeta creada y la imagen .ico en la misma carpeta debes hacer click derecho sobre la carpeta y buscar la opción folderico, se verá así.
+						img(src="img/folders/tutorial-captura-2.jpg")
+					li Paso 4:
+						p Debes hacer click sobre la opción "Select custom icon", y tendrás esta ventana en la que debes presionar "Select custom icon" de nuevo.
+						img(src="img/folders/tutorial-captura-3.jpg")
+					li Paso 5:
+						p Se abrirá una ventana de selección en la que debes seleccionar la imagen .ico.
+						img(src="img/folders/tutorial-captura-4.jpg")
+					li Paso 6:
+						p Volverás a la ventana anterior en la que debes seleccionar el icono y luego en el botón "Apply".
+						img(src="img/folders/tutorial-captura-5.jpg")
+					li Paso 7:
+						p Este será el resultado final, tendrás una carpeta personalizada que sin importar donde la guardes no perderá su icono. Ya en este paso puedes borrar o guardar la imagen en formato .ico, lo que sea tu preferencia.
+						img(src="img/folders/tutorial-captura-6.jpg")

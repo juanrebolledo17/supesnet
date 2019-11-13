@@ -1,0 +1,41 @@
+extends /../layout.pug
+
+append scripts
+	link(href='/scss/main.scss' rel="stylesheet")
+
+block vars
+	- var currentUrl = '/page'
+	- var title = '| Black Lightning Temporada 3'
+
+block content
+	section.specific-page
+		div.image-container
+			img(src="/img/series/black-lightning-season-3.jpg" class="main-img")
+		div.info-container
+			div.information
+				p Tercera temporada de la serie de The CW, <strong>Black Lightning</strong>, en la que Jefferson Pierce  y su familia tendrán que hacer frente tanto a la amenaza de la guerra meta-humana con los markovians como a la maligna organización gubernamental A.S.A.  
+				h5 Información técnica
+				ul.technical-data
+					li Episodios: 04
+					li Calidad: 720p
+					li Audio: Inglés
+					li Subtitulos: Inglés / Español latino
+					li Formato: mkv
+				h5 Carpeta personalizada
+				div.folder-container
+					img(src="/img/folders/black-lightning-season-3-folder.png" class="folder")
+				h5 Enlaces de descarga
+				div.link-container
+					ul.download-links
+						li 
+							a(href="#" class="link") 01 - The book of occupation - Chapter 1 - Birth of the blackbird
+						li
+							a(href="#" class="link") 02 - The book of occupation - Chapter 2 - Maryam's Tasbih
+						li
+							a(href="#" class="link") 03 - The book of occupation - Chapter 3 - Agent Odell's pipe-dream
+						li
+							a(href="#" class="link") 03 - The book of occupation - Chapter 4 - Lynn's ouroboros
+						li
+							a(href="#" class="link") Carpeta personalizada
+					// p Contraseña: supesnet
+
