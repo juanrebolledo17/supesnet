@@ -6,7 +6,7 @@
   "private": false,
   "scripts": {
     "clean": "rm dist/bundle.js",
-    "start": "parcel src/base.pug --open",
+    "start": "parcel src/index.pug --open",
     "build-prod": "parcel build src/base.pug"
   },
   "dependencies": {
